@@ -26,7 +26,7 @@
                 <a href="https://api.whatsapp.com/send?phone=3144575487&text=Hola%20" style="border-radius: 50dp;" target="_blank" class="llamanos">CONTACTANOS</a>
             </secrion>
             <div class="banner_img">
-                <img src="/images/logohackaton.png" alt="">
+                <img src="../recursos/images/logohackaton.png" alt="">
             </div>
         </section>
 

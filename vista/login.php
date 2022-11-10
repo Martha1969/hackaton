@@ -21,7 +21,7 @@
                 <label class="form-label" for="password"style="font-weight: bold;">contraseña</label>
                 <input class="form-control" type="password"id="password">
             </div>
-            <input class="btn btn-outline-primary w-100" type="submit" value="INGRESAR" style="margin-top: 50px;" onclick="Validar();">
+            <a class="btn btn-outline-primary w-100" value="" style="margin-top: 50px;" href="administrador.html">INGRESAR</a>
         </form>
     </div>
 </body>

@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Roboto', 'Sans serif';
-}
+
 .btn_iniciar:hover{
     background-color: gainsboro;
     cursor: pointer;
@@ -175,6 +173,10 @@ body{
     animation-delay: 4s;
 }
 
+.modal-header {
+    background-color: #567cbe;
+    color: white;
+  }
 
 @keyframes burbujas{
     0%{

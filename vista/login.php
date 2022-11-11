@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="estiloslogin.css">
-    <script src="direccionarlogin.js"></script>
+    <script src="../recursos/js/direccionarlogin.js"></script>
 </head>
 <body style="height: 100vh;display: flex;align-items: center;justify-content: center;background: linear-gradient(to right, #6f84e2, #78afdd);">
     <div class="login" style="background-color: white; padding: 50px;border-radius: 30px;">
@@ -21,7 +20,7 @@
                 <label class="form-label" for="password"style="font-weight: bold;">contraseña</label>
                 <input class="form-control" type="password"id="password">
             </div>
-            <a class="btn btn-outline-primary w-100" value="" style="margin-top: 50px;" href="administrador.html">INGRESAR</a>
+            <a class="btn btn-outline-primary w-100" value="" style="margin-top: 50px;" href="administrador.php">INGRESAR</a>
         </form>
     </div>
 </body>

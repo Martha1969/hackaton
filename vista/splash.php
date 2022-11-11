@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StyleShop</title>
-    <link rel="stylesheet" href="estilos.css">
-    <script src="redireccionar.js"></script>
+    <link rel="stylesheet" href="../recursos/css/estilos.css">
+    <script src="../recursos/js/redireccionar.js"></script>
     <script src="https://kit.fontawesome.com/b300315147.js" crossorigin="anonymous"></script>
 </head>
 <body>

@@ -1,7 +1,7 @@
 function Login(){
-    location.href ="login.html";
+    location.href ="login.php";
 }
 function Productos(){
-    location.href ="principal.html";
+    location.href ="principal.php";
 }
 

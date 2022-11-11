@@ -20,7 +20,7 @@
                 <label class="form-label" for="password"style="font-weight: bold;">contraseña</label>
                 <input class="form-control" type="password"id="password">
             </div>
-            <a class="btn btn-outline-primary w-100" value="" style="margin-top: 50px;" href="administrador.php">INGRESAR</a>
+            <a class="btn btn-outline-primary w-100" value="" style="margin-top: 50px;" href="gestion_producto.php">INGRESAR</a>
         </form>
     </div>
 </body>

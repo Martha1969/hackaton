@@ -35,7 +35,7 @@
                 </ul>
                 <div class="row">
                     <div class="col fs-3 ">
-                        <a href=""><i class="fa-solid fa-right-from-bracket text-light"></i></a>
+                        <a href="principal.php"><i class="fa-solid fa-right-from-bracket text-light"></i></a>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-12 col-sm-10 col-lg-6">
-                <div class="card card-outline elevation-2">
+                <div class="card card-outline elevation-2 shadow border-0">
                     <div class="card-body">
                         <table class="table">
                             <thead>
@@ -60,7 +60,7 @@
                                     <th scope="col">Nombre</th>
                                     <th scope="col">Cantidad</th>
                                     <th scope="col">Handle</th>
-                                    <th class="text-end" scope="col">Acciones</th>
+                                    <th class="text-end pe-5" scope="col">Acciones</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -70,20 +70,20 @@
                                     <td>Otto</td>
                                     <td>@mdo</td>
                                     <td>
-                                        <div class="row float-end">
+                                        <div class="row float-end pe-3">
                                             <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-eye" data-toggle="tooltip" title="Detalle Libro" style="color: #fa8c15;"></i>
+                                                    <i class="fas fa-eye" data-toggle="tooltip" title="Detalle Producto" style="color: #fa8c15;"></i>
                                                 </a>
                                             </div>
                                             <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-edit" data-toggle="tooltip" title="Actualizar Libro" style="color: #2c3e50;"></i>
+                                                    <i class="fas fa-edit" data-toggle="tooltip" title="Actualizar Producto" style="color: #2c3e50;"></i>
                                                 </a>
                                             </div>
                                             <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-trash" data-toggle="tooltip" title="Eliminar Libro" style="color: #f44336;"></i>
+                                                    <i class="fas fa-trash" data-toggle="tooltip" title="Eliminar Producto" style="color: #f44336;"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -96,20 +96,20 @@
                                     <td>Thornton</td>
                                     <td>@fat</td>
                                     <td>
-                                        <div class="row float-end">
-                                            <div class="col-3">
+                                        <div class="row float-end pe-3">
+                                        <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-eye" data-toggle="tooltip" title="Detalle Libro" style="color: #fa8c15;"></i>
+                                                    <i class="fas fa-eye" data-toggle="tooltip" title="Detalle Producto" style="color: #fa8c15;"></i>
                                                 </a>
                                             </div>
                                             <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-edit" data-toggle="tooltip" title="Actualizar Libro" style="color: #2c3e50;"></i>
+                                                    <i class="fas fa-edit" data-toggle="tooltip" title="Actualizar Producto" style="color: #2c3e50;"></i>
                                                 </a>
                                             </div>
                                             <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-trash" data-toggle="tooltip" title="Eliminar Libro" style="color: #f44336;"></i>
+                                                    <i class="fas fa-trash" data-toggle="tooltip" title="Eliminar Producto" style="color: #f44336;"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -121,20 +121,20 @@
                                     <td colspan="2">Larry the Bird</td>
                                     <td>@twitter</td>
                                     <td>
-                                        <div class="row float-end">
-                                            <div class="col-3">
+                                        <div class="row float-end pe-3">
+                                        <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-eye" data-toggle="tooltip" title="Detalle Libro" style="color: #fa8c15;"></i>
+                                                    <i class="fas fa-eye" data-toggle="tooltip" title="Detalle Producto" style="color: #fa8c15;"></i>
                                                 </a>
                                             </div>
                                             <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-edit" data-toggle="tooltip" title="Actualizar Libro" style="color: #2c3e50;"></i>
+                                                    <i class="fas fa-edit" data-toggle="tooltip" title="Actualizar Producto" style="color: #2c3e50;"></i>
                                                 </a>
                                             </div>
                                             <div class="col-3">
                                                 <a href="#">
-                                                    <i class="fas fa-trash" data-toggle="tooltip" title="Eliminar Libro" style="color: #f44336;"></i>
+                                                    <i class="fas fa-trash" data-toggle="tooltip" title="Eliminar Producto" style="color: #f44336;"></i>
                                                 </a>
                                             </div>
                                         </div>

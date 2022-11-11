@@ -35,7 +35,7 @@
                 </ul>
                 <div class="row">
                     <div class="col fs-3 ">
-                        <a href=""><i class="fa-solid fa-right-from-bracket text-light"></i></a>
+                        <a href="principal.php"><i class="fa-solid fa-right-from-bracket text-light"></i></a>
                     </div>
                 </div>
             </div>
@@ -51,23 +51,31 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-12 col-sm-10 col-lg-8">
-                <div class="card card-outline card-sena elevation-2">
+                <div class="card card-outline card-sena elevation-2 shadow border-0">
                     <div class="card-body">
                         <form method="POST" action="" class="needs-validation" novalidate>
                             <input type="hidden" name="insertar" value="insertar">
-                            <div class="form-row justify-content-center ">
+                            <div class="form-row d-flex align-items-center flex-column">
 
-                                <div class="form-group col-8">
-                                    <label for="exampleFormControlInput1" class="form-label">Nombre producto</label>
+                                <div class="form-group col-8 ">
+                                    <label for="exampleFormControlInput1" class="form-label" style="font-weight: bold">Nombre producto</label>
                                     <input class="form-control" name="nombre" type="text" maxlength="25" required>
                                 </div>
                                 <div class="form-group col-8">
-                                    <label for="exampleFormControlInput1" class="form-label">Cantidad</label>
-                                    <input class="form-control" name="nombre" type="text" maxlength="25" required>
+                                    <label for="exampleFormControlInput1" class="form-label" style="font-weight: bold">Precio</label>
+                                    <input class="form-control" name="precio" type="text" maxlength="25" required>
+                                </div>
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlInput1" class="form-label" style="font-weight: bold">Cantidad</label>
+                                    <input class="form-control" name="cantidad" type="text" maxlength="25" required>
+                                </div>
+                                <div class="form-group col-8">
+                                    <label for="exampleFormControlInput1" class="form-label" style="font-weight: bold">Descripcion</label>
+                                    <input class="form-control" name="descripcion" type="text" maxlength="25" required>
                                 </div>
 
                                 <div class="form-group col-8 mt-3">
-                                    <button class="btn w-100 btn-primary" type="submit">Registrar</button>
+                                    <a class="btn w-100 btn-primary" type="submit" href="gestion_producto.php">Registrar</a>
                                 </div>
                             </div>
                         </form>

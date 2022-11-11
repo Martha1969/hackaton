@@ -17,31 +17,31 @@
             <a class="navbar-brand" href="#">
                 <img src="../recursos/images/logohackaton.png" style="width: 400px; height: 100px;" alt="" width="30" height="24">
             </a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 60px;">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 30px;">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#" style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" style="padding-left: 100px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Niños</a>
+                        <a class="nav-link active" href="#" style="padding-left: 50px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Niños</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" style="padding-left: 100px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Niñas</a>
+                        <a class="nav-link active" href="#" style="padding-left: 50px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Niñas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" style="padding-left: 100px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Hombres</a>
+                        <a class="nav-link active" href="#" style="padding-left: 50px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Hombres</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" style="padding-left: 100px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Mujeres</a>
+                        <a class="nav-link active" href="#" style="padding-left: 50px;font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight: 700;font-size: large;">Mujeres</a>
                     </li>
                     <li class="nav-item">
                         <form class="d-flex">
-                            <input class="form-control me-2" style="border: 1px solid blue;" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-primary" style="width: 100px;border-radius: 50px;margin-right: 30px;" type="submit">Search</button>
+                            <input class="form-control me-2" style="border: 1px solid blue;min-width:100px" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn btn-outline-primary" style="width: 100px;border-radius: 50px;margin-right: 30px;" type="submit">Buscar</button>
                         </form>
                     </li>
                     <li class="nav-item">
-                        <a href="ad.php" class="btn btn-outline-primary" style="width: 100px; border-radius: 50px;">Login</a>
+                        <a href="login.php" class="btn btn-outline-primary" style="width: 100px; border-radius: 50px;">Login</a>
                     </li>
                 </ul>
             </div>
@@ -179,39 +179,6 @@
                                             <h5 class="card-title">$205.000</h5>
                                             <p class="card-text">Disco Vinilo Gun´s & Roses</p>
                                             <p class="card-text">Disco de vinilo de Gun´s & Roses, puro flow</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4" style="width: 18rem;">
-                        <div class="card">
-                            <div class="row ">
-                                <div class="col d-flex  align-items-center " style="height: 300px;">
-                                    <img src="../recursos/images/supermario.png" class="img-fluid mx-auto d-block" style="height: 300px;" alt="...">
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title">$500.000</h5>
-                                <p class="card-text">Videojuego Super Mario 64</p>
-                                <p class="card-text">stock 10<p>
-                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">Ver más detalles</a>
-                                <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="staticBackdropLabel">Sumer Mario 64</h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="card-body">
-                                                    <img src="../recursos/images/supermario.png" class="img-fluid mx-auto d-block" style="height: 300px;" alt="...">
-                                                    <h5 class="card-title">$500.000</h5>
-                                                    <p class="card-text">Videojuego Super Mario 64</p>
-                                                    <p class="card-text">Juego clasico que te ayudara a recordar tu infancia</p>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

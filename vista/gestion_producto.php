@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-10 col-lg-8">
+            <div class="col-12 col-sm-10 col-lg-6">
                 <div class="card card-outline elevation-2">
                     <div class="card-body">
                         <table class="table">

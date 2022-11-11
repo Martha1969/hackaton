@@ -1,3 +1,13 @@
+<?php
+
+require '../controlador/database.php';
+$db = new Database();
+$con = $db->conectar();
+$sql = $con->prepare("SELECT id,nombre,precio,cantidad,descripcion FROM productos");
+$sql->execute();
+$resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -82,15 +92,24 @@
         <div class="row text-center justify-content-center">
             <div class="col-4" style="width: 18rem;">
                 <div class="card shadow border-0">
+                <?php foreach ($resultado as $row) { ?>
                     <div class="row">
                         <div class="col d-flex align-items-center" style="height: 300px;">
-                            <img src="../recursos/images/vinilo.png" class="img-fluid p-2" alt="...">
+                                <?php
+                                $id = $row['id'];
+                                $imagen = "../recuros/images" . $id . "/vinilo.png";
+
+                                if (!file_exists($imagen)) {
+                                $imagen = "../recursos/images/vinilo.png";
+                                }
+                                ?>
+                            <img src="<?php echo $imagen; ?>" class="img-fluid p-2" alt="...">
                         </div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">$205.000</h5>
-                        <p class="card-text">Disco Vinilo Gun´s & Roses</p>
-                        <p class="card-text">stock: 10</p>
+                        <h5 class="card-text">$<?php echo $row['precio'] ?></h5>
+                        <p class="card-text"><?php echo $row['nombre'] ?><p>
+                        <p class="card-text">stock: <?php echo $row['cantidad'] ?><p>
                         <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ver más detalles</a>
                         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog">
@@ -104,9 +123,9 @@
                                             <img src="../recursos/images/vinilo.png" class="img-fluid p-2" alt="...">
                                         </div>
                                         <div class="card-body">
-                                            <h5 class="card-title">$205.000</h5>
-                                            <p class="card-text">Disco Vinilo Gun´s & Roses</p>
-                                            <p class="card-text">Vinilo de Gun´s & Roses, puro flow</p>
+                                            <h5 class="card-text">$<?php echo $row['precio'] ?></h5>
+                                            <p class="card-text"><?php echo $row['nombre'] ?><p>
+                                            <p class="card-text"><?php echo $row['descripcion'] ?><p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,6 +206,7 @@
                     </div>
                 </div>
             </div>
+            <?php } ?>
         </div>
     </div>
 

@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -53,7 +56,7 @@
             <div class="col-12 col-sm-10 col-lg-8">
                 <div class="card card-outline card-sena elevation-2 shadow border-0">
                     <div class="card-body">
-                        <form method="POST" action="" class="needs-validation" novalidate>
+                        <form method="POST" action="" class="needs-validation" novalidate method="POST">
                             <input type="hidden" name="insertar" value="insertar">
                             <div class="form-row d-flex align-items-center flex-column">
 
